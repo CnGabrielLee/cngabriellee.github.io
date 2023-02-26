@@ -1,0 +1,18 @@
+.food{
+    text-align: center;
+    color: red;
+}
+.name{
+    text-align: center;
+    color: pink;
+}
+.BG-grey{
+    background-color: gray;
+}
+#css-p{
+    color: yellow;
+    text-align: center;
+}
+*{
+    background-color: rgb(153, 206, 242);
+}

@@ -1,0 +1,13 @@
+*{
+    color: red;
+}
+h1:hover{
+    color: skyblue;
+}
+ul li{
+    color: #adff2f;
+}
+.skyblue ,[href]:hover{
+    color:skyblue;
+    text-align:center;
+}

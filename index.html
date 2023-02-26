@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--網頁編碼-->
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Gabriel's HTML learning"/>
+        <meta name="authors" content="Gabriel Lee"/>
+        <meta name="keywords" content="self-learning, Gabriel Lee"/>
+        <meta name="viewport" content="width=device-width, initail-scale=1.0"/>
+        <link rel="icon" href="Pic/W64.ico" type="image/x-icon"/>
+        <title>Gabriel's Self-learning</title>
+    </head>
+    <body style="background-color: powderblue;color:black">
+        <!--基本標籤-->
+        <h1 style="font-family:verdana;text-align:Center;">Website</h1>
+        <hr/>
+        <h3>基本標籤:</h3>
+        <i><p>斜體</p></i>
+        <p>內文</p>
+        <p><b>粗體</b></p>
+        <pre>typewriter</pre>
+        <br/>
+        
+        <!--連結與圖片-->
+        <hr/>
+        <h3>連結與圖片:</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpngGRjYX1ca7qAADU3K6eGLj7ShQE3L2otdzfryl_Y9Ht2QRoQKYQbsXd36XIxMbYOw0&usqp=CAU"/>
+        <br/>
+        <a href="https://google.com">Google</a>
+        <br/>
+        <a href="page1.html">first page</a>
+        <br/>
+        <a href="Pic/wheelchair.png">wheelchair</a>
+        <br/>
+        <a href="https://www.w3schools.com/html/">self-learning:HTML</a>
+
+        <!--加入影片-->
+        <hr/>
+        <h3>加入影片:</h3>
+        <p>Lofi Jazz: </p>
+        <video src="Pic/1.mp4" controls></video>
+        <br/>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CLUPkcLQm64" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
+        <!--列表與表格-->
+        <hr/>
+        <h3>列表與表格:</h3>
+        <ul>
+            <li><a href="https://google.com">Google</a></li>
+            <li><a href="https://facebook.com">Facecook</a></li>
+        </ul>
+        <table width="200">
+            <tr>
+                <td>日期</td>
+                <td>是否學習</td>
+            </tr>
+            <tr>
+                <td>2/21</td>
+                <td>yes</td>
+            </tr>
+        </table>
+
+        <!--html的容器：div&span-->
+        <hr/>
+        <h3>html的容器：div&span:</h3>
+        <p>div:一次用整行，span:寬度多少則為多少</p>
+        <div>
+            <p>常用網站：</p>
+            <ul>
+                <li><a href="https://google.com">Google</a></li>
+                <li><a href="https://facebook.com">Facecook</a></li>
+            </ul>
+            <table width="200">
+                <tr>
+                    <td>日期</td>
+                    <td>是否學習</td>
+                </tr>
+                <tr>
+                    <td>2/21</td>
+                    <td>yes</td>
+                </tr>
+            </table>
+        </div>
+
+        <!--html輸入標籤-->
+        <hr/>
+        <h3 style="text-align:Center;">html的輸入標籤</h3>
+        <p>輸入帳號密碼：</p>
+        <input type="text" placeholder="Enter Mail"/>            <!--輸入純文字-->
+        <br/>
+        <input type="password" placeholder="Enter Password"/>    <!--輸入密碼-->
+        <br/><br/>
+        <input type="date"/>
+        <br/><br/>
+        <input type="range"/>
+        <br/><br/>
+        <input type="file"/>
+        <br/><br/>
+        <input type="checkbox"/>
+        <br/><br/>
+        <textarea>Hello</textarea>
+        
+        <!--padding&margin-->
+        <hr/>
+        <h3 style="text-align:center;">Padding&Margin</h3>
+        <div style="text-align: center;">
+            <a href="Padding&Margin.html">範例</a>
+        </div>
+        <!--float&display-->
+        <hr/>
+        <h3 style="text-align:center;"> float&display</h3>
+        <img src="Pic/FFRUK24aIAAa8aZ.jpg" width="100" style="float:left;"/>
+        <p>float可以將圖檔浮起，所以p標籤的文字即會上去補位，顯示在圖片的旁邊</p>
+        <br/><br/><br/>
+        <!--block & inline--> 
+        <p style="display: inline;">p標籤預設的是block，佔一整行</p>
+        <span style="display: block;">span標籤預設是inline，佔文字的長度</span>
+        
+        <!--Position 定位-->
+        <hr/>
+        <h3 style="text-align: center;">Position 定位</h3>
+        <div style="text-align:center ;">
+            <a href="page1.html">position:fixed範例</a>
+        </div>
+
+        <!--opacity-->
+        <hr/>
+        <h3 style="text-align: center;">Opacity&Border-radius</h3>
+        <div style="text-align: center;">
+            <a href="opacity&border-radius.html">範例</a>
+        </div>
+
+        <!--style與引入外部css檔案-->
+        <hr/>
+        <h3 style="text-align:center ;">Style與引入外部css檔案</h3>
+        <div style="text-align: center;">
+            <a href="style.html">範例</a>
+        </div>
+
+        <!--class&id-->
+        <hr/>
+        <h3 style="text-align:center ;">class&id</h3>
+        <div style="text-align: center;">
+            <a href="class&id.html">範例</a>
+        </div>
+
+        <!--css選擇器-->
+        <hr/>
+        <h3 style="text-align:center ;">css選擇器</h3>
+        <div style="text-align: center;">
+            <a href="csscontrol.html">範例</a>
+        </div>
+
+        <!--flex-->
+        <hr/>
+        <h3 style="text-align:center ;">flex</h3>
+        <div style="text-align: center;">
+            <a href="flex.html">範例</a>
+        </div>
+
+        <!--animation-->
+        <hr/>
+        <h3 style="text-align:center ;">animation</h3>
+        <div style="text-align: center;">
+            <a href="animation.html">範例</a>
+        </div>
+        
+    </body>
+</html>

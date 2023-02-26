@@ -1,0 +1,22 @@
+.box {
+    border: 1px gainsboro dashed;
+    width: 100px; height: 100px;
+}
+.animation {
+    margin:0px;
+    position: relative;
+    animation-name: rainbow;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+   
+    
+}
+@keyframes rainbow {
+    0%{color: red;top:0px;}
+    20%{color: orange;}
+    40%{color: yellow;}
+    60%{color: green;}
+    80%{color: blue;}
+    100%{color: purple;top:82px;}
+    
+}
